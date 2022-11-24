@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- nav>(div>(p+inp+btn)+div>(btn{accueil}+btn{a propos}+btn{coworking}+btn{codingschool}+btn{agenda}+btn{formation}+btn{presse}+btn{tester le coworking}) -->
     <nav>
-        <div>
-            <p>restez dans nos evenements</p>
-            <input type="text" name="" id=""><button>inscrivez-vous</button>
-            <div><button>accueil</button><button>a propos</button><button>coworking</button><button>codingschool</button><button>agenda</button><button>formation</button><button>presse</button><button>tester le coworking</button></div>
-        </div>
+        <!-- <div> -->
+        <topbarre>
+            <div class="hautdelanav">
+                <img class="img1" src="./img/unknown.png" width="45px" alt="">
+                <p>Restez informé de nos evenements</p>
+                <input type="text" name="" id="">
+                <button class="btn1">inscrivez-vous</button>
+            </div>
+        </topbarre>
+            <navbar class="nav">
+                <img class="img" src="./img/unknown (1).png" alt="" width="150px">
+                <div class="basdelanav">
+                    <button class="btn">accueil</button>
+                    <button class="btn">a propos</button>
+                    <button class="btn">coworking</button>
+                    <button class="btn">codingschool</button>
+                    <button class="btn">agenda</button>
+                    <button class="btn">formation</button>
+                    <button class="btn">presse</button>
+                </div>
+                <div class="btndroite">
+                    <button class="btn">tester le coworking</button>
+                </div>
+            </navbar>
+        <!-- </div> -->
     </nav>
     <!-- div>h1{MolenGeek} -->
-    <div>
+    <div class="titre">
         <h1>MolenGeek</h1>
     </div>
     <!-- div>(p+ul>li*7) -->
     <div>
-        <p>Ala base molengeek est un evenement qui se passe en week-end ou en semaine pour tester une idée ou un projet entreprenarial Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, hic!</p>
-        <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, accusantium?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, non!</li>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint totam autem optio labore, numquam est.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo modi obcaecati esse.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. A.</li>
-            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, non? Fuga!</li>
-        </ul>
+        <div class="para">
+            <p>Ala base molengeek est un evenement qui se passe en week-end ou en semaine pour tester une idée ou un
+                projet
+                entreprenarial Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, hic! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, delectus? </p>
+        </div>
+        <div class="list">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, accusantium?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, non!</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint totam autem optio labore, numquam
+                    est.
+                </li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo modi obcaecati esse.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. A.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, non? Fuga!</li>
+            </ul>
+        </div>
     </div>
     <!-- section>div>(h3{Ou se situe molengeek dans l'eco systeme belge})+div>p -->
-    <section>
+    <section class="section">
         <div>
-            <h3>Ou se situe molengeek dans l'eco systeme belge</h3>
+            <h1 class="titre2">Ou se situe molengeek dans l'eco systeme tech belge</h1>
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa laboriosam voluptatum maxime voluptatem expedita cum, repudiandae quo est. Maiores repellat esse asperiores cumque illo aliquid tempora neque quam corrupti debitis!
-                Pariatur minima ut hic delectus ipsum facere eveniet perspiciatis quasi, quidem omnis possimus in voluptatum facilis maxime culpa dignissimos adipisci rem dicta iusto quas dolore reiciendis laboriosam voluptates. <br> <br> Mollitia, harum.
-                Repellendus, possimus laboriosam? Eligendi excepturi itaque commodi dolore. Et totam eaque minima neque sit laudantium temporibus dolores dolor mollitia maiores, facilis, natus quia id asperiores. <br> <br> Impedit assumenda sunt molestiae enim!
-                Dolores accusantium non rerum pariatur nulla eligendi enim nihil amet fugit repudiandae minima fugiat mollitia aspernatur est dolore, atque, rem et illum neque! Quos delectus est animi magni minus illo?
-                Maiores expedita, soluta in est velit molestias ut quod natus qui eum temporibus hic similique, aliquid quibusdam? Totam suscipit non sunt, id incidunt eius dolorum, minus magnam ex consectetur quae.</p>
+                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa laboriosam voluptatum maxime
+                    voluptatem expedita cum, repudiandae quo est. Maiores repellat esse asperiores cumque illo aliquid
+                    tempora neque quam corrupti debitis!
+                    Pariatur minima ut hic delectus ipsum facere eveniet perspiciatis quasi, quidem omnis possimus in
+                    voluptatum facilis maxime culpa dignissimos adipisci rem dicta iusto quas dolore reiciendis
+                    laboriosam voluptates. <br> <br> Mollitia, harum.
+                    Repellendus, possimus laboriosam? Eligendi excepturi itaque commodi dolore. Et totam eaque minima
+                    neque sit laudantium temporibus dolores dolor mollitia maiores, facilis, natus quia id asperiores.
+                    <br> <br> Impedit assumenda sunt molestiae enim!
+                    Dolores accusantium non rerum pariatur nulla eligendi enim nihil amet fugit repudiandae minima
+                    fugiat mollitia aspernatur est dolore, atque, rem et illum neque! Quos delectus est animi magni
+                    minus illo?
+                    Maiores expedita, soluta in est velit molestias ut quod natus qui eum temporibus hic similique,
+                    aliquid quibusdam? Totam suscipit non sunt, id incidunt eius dolorum, minus magnam ex consectetur
+                    quae.</p>
             </div>
         </div>
     </section>
@@ -57,4 +98,5 @@
         </div>
     </footer>
 </body>
+
 </html>
